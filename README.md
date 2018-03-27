@@ -4,75 +4,73 @@ This Student Attendance Management(SAM) project was done during Unscript-2k18 24
 
 ## Technologies Used
 
-1.HTML5
+1. HTML5
 
-2.CSS3
+2. CSS3
 
-3.Javascript
+3. Javascript
 
-4.jQuery
+4. jQuery
 
-5.PHP
+5. PHP
 
-6.MySQL
+6. MySQL
 
-7.Arduino
+7. Arduino
 
-8.Embedded C++
+8. Embedded C++
 
-9.Bootstrap
-
+9. Bootstrap
 
 ## Main Features
 
-1.Biometric Attendance
+1. Biometric Attendance
 
-2.Manual Attendance
+2. Manual Attendance
 
-3.Attendance Reports using Bar Chart and Pie Chart(using ChartJS)
+3. Attendance Reports using Bar Chart and Pie Chart(using Chart.js)
 
-4.Generating Excel File for Lecture Attendance Summary(for Teachers)
+4. Generating Excel File for Lecture Attendance Summary(for Teachers)
 
-5.File Upload feature for adding Circulars
+5. File Upload feature for adding Circulars
 
-6.Generating PDF Results(using dompdf)
+6. Generating PDF Results(using Dompdf)
 
-7.SMS on Student Admission (using Twilio)
+7. SMS on Student Admission (using Twilio SMS Api)
 
-8.Email on Student Admission or Addition of new Teachers(using PHPMailer)
+8. Email on Student Admission or Addition of new Teachers(using PHPMailer)
 
 ## Steps of Installation 
 
-1.Download or Clone "HelloSAM" from here.
+1. Download or Clone "HelloSAM" from here.
 
-2.Verify and Enter your database username and password at "hellosam/db_connection.php".
+2. Verify and Enter your database username and password at "hellosam/db_connection.php".
 
-3.Create a database "hellosam" and import the database from "database/hellosam.sql".
+3. Create a database "hellosam" and import the database from "database/hellosam.sql".
 
-4.Make a Twilio account to get Account SID, Auth Token and Twilio Mobile Number and substitute them in the placeholders at "hellosam/login/signup.php".
+4. Make a Twilio account to get Account SID, Auth Token and Twilio Mobile Number and substitute them in the placeholders at "hellosam/login/signup.php".
 
-5.Place "cacert.pem" inside any directory inside C drive.
+5. Place "cacert.pem" inside any directory inside C drive.
 
-6.Open php.ini and uncomment the line "curl.cainfo = " by removing the semicolon at the start of the line.
+6. Open php.ini and uncomment the line "curl.cainfo = " by removing the semicolon at the start of the line.
 
-7.Update curl.cainfo="C:/path/of/file/cacert.pem" and restart WAMP/XAMPP.
+7. Update curl.cainfo="C:/path/of/file/cacert.pem" and restart WAMP/XAMPP.
 
-8.Substitute your Gmail account credentials and Contact Queries receiving Email Address in the placeholders at "hellosam/admin/add_admission.php" and "hellosam/admin/add_teacher.php".
+8. Substitute your Gmail account credentials and Contact Queries receiving Email Address in the placeholders at "hellosam/admin/add_admission.php" and "hellosam/admin/add_teacher.php".
 
-9.Allow use of less secured apps in the Settings Panel of your Gmail Account (just in case Sending Emails is not working).
+9. Allow use of less secured apps in the Settings Panel of your Gmail Account (just in case Sending Emails is not working).
 
-10.Setup an Arduino along with a Fingerprint Scanner as shown in "screenshots/Arduino.png". 
+10. Setup an Arduino along with a Fingerprint Scanner as shown in "screenshots/Arduino.png". 
 
 ## NOTE 
 
-1.Twilio only sends SMS between morning 9am to evening 9pm.
+1. Twilio only sends SMS between morning 9am to evening 9pm.
 
-2.Sample Biometric Registration and Attendance Video is available at "Videos/*".
+2. Sample Biometric Registration and Attendance Video is available at "Videos/*".
 
-3.Sample Attendance Summary Excel File can be found at "Samples/Sample Attendance Summary.xlsx".
+3. Sample Attendance Summary Excel File can be found at "Samples/Sample Attendance Summary.xlsx".
 
-4.Sample Result Sheet PDF can be found at "Samples/Sample Result Sheet.pdf".
-
+4. Sample Result Sheet PDF can be found at "Samples/Sample Result Sheet.pdf".
 
 ## Screenshots
 
